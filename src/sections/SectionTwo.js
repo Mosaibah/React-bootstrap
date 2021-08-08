@@ -11,14 +11,16 @@ export default class SectionTwo extends Component {
                     <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
                     <div className="divider-custom-line"></div>
                 </div>
-                <div className="row">
-                    <div className="col-lg-4 ms-auto"><p className="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-                    <div className="col-lg-4 me-auto"><p className="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
+                <div className="d-flex justify-content-center">
+                    <div className="w-50 "><p className="lead">
+                        I started my road in Web Development before one year, In this year I learnd PHP, Javascript, Laravel, HTML, CSS Bootstrap, TailwindCSS, Linux(ubuntu, CentOS), Manage server in Digitalocean, Git & GitHub, and now I started learn React with Mr. Fahad Al-Subaie.
+                        </p></div>
+            
                 </div>
                 <div className="text-center mt-4">
-                    <a className="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
-                        <i className="fas fa-download me-2"></i>
-                        Free Download!
+                    <a className="btn btn-xl btn-outline-light" href="https://twitter.com/FahadAlsubaie01/status/1418929698927742979?s=20">
+                        <i className="fab fa-fw fa-twitter me-2"></i>
+                        Join Wit Us!
                     </a>
                 </div>
             </div>
