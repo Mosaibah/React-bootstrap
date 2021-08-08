@@ -44,6 +44,7 @@ window.addEventListener('DOMContentLoaded', event => {
     const responsiveNavItems = [].slice.call(
         document.querySelectorAll('#navbarResponsive .nav-link')
     );
+    // eslint-disable-next-line array-callback-return
     responsiveNavItems.map(function (responsiveNavItem) {
         responsiveNavItem.addEventListener('click', () => {
             if (window.getComputedStyle(navbarToggler).display !== 'none') {
