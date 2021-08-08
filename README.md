@@ -14,3 +14,5 @@ I did :
 - npm install
 - npm start
 
+
+And have fun!
