@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class SectionTwo extends Component {
     render() {
         return (
-            <section className="page-section bg-primary text-white mb-0" id="about">
+            <section className="page-section bg-primary text-white mb-0 mt-5" id="about">
             <div className="container">
                 <h2 className="page-section-heading text-center text-uppercase text-white">About</h2>
                 <div className="divider-custom divider-light">
@@ -13,7 +13,7 @@ export default class SectionTwo extends Component {
                 </div>
                 <div className="d-flex justify-content-center">
                     <div className="w-50 "><p className="lead">
-                        I started my road in Web Development before one year, In this year I learnd PHP, Javascript, Laravel, HTML, CSS Bootstrap, TailwindCSS, Linux(ubuntu, CentOS), Manage server in Digitalocean, Git & GitHub, and now I started learn React with Mr. Fahad Al-Subaie.
+                        I started my road in Web Development before one year, In this year I learned PHP, Javascript, Laravel, HTML, CSS Bootstrap, TailwindCSS, Linux(ubuntu, CentOS), Manage server in Digitalocean, Git & GitHub, and now I started learn React with Mr. Fahad Al-Subaie.
                         </p></div>
             
                 </div>

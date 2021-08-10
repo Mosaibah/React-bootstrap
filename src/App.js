@@ -9,17 +9,45 @@ import SectionThree from './sections/SectionThree';
 import Footer from './layouts/Footer';
 import Modals from './layouts/Modals';
 
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useRouteMatch,
+  useParams
+} from "react-router-dom";
+
 function App() {
   return (
-    <div id="page-top">
-        <Navbar/>
-        <Header/>
-        <SectionOne/>
-        <SectionTwo/>
-        <SectionThree/>
-        <Footer/>
-        <Modals/>
-    </div>
+    <Router>
+      <div id="page-top">
+
+        <Switch>
+        <Route path="/" exact>
+            <Navbar/>
+              <Header/>
+            <Footer/>
+          </Route>
+          <Route path="/Portfolio" exact>
+            <Navbar/>
+            <SectionOne/>
+            <Modals/>
+            <Footer/>
+          </Route>
+          <Route path="/about" exact>
+            <Navbar/>
+            <SectionTwo/>
+            <Footer/>
+          </Route>
+          <Route path="/contact" exact>
+            <Navbar/>
+              <SectionThree/>
+            <Footer/>
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
