@@ -8,14 +8,15 @@ import SectionTwo from './sections/SectionTwo';
 import SectionThree from './sections/SectionThree';
 import Footer from './layouts/Footer';
 import Modals from './layouts/Modals';
+import Error from './sections/Error';
 
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link,
-  useRouteMatch,
-  useParams
+  Route
+  // Link,
+  // useRouteMatch,
+  // useParams
 } from "react-router-dom";
 
 function App() {
@@ -43,6 +44,11 @@ function App() {
           <Route path="/contact" exact>
             <Navbar/>
               <SectionThree/>
+            <Footer/>
+          </Route>
+          <Route>
+            <Navbar/>
+              <Error/>
             <Footer/>
           </Route>
         </Switch>

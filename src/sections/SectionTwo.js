@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class SectionTwo extends Component {
     render() {
         return (
-            <section className="page-section bg-primary text-white mb-0 mt-5" id="about">
+            <section className="page-section bg-primary text-white mb-0" id="about">
             <div className="container">
                 <h2 className="page-section-heading text-center text-uppercase text-white">About</h2>
                 <div className="divider-custom divider-light">
